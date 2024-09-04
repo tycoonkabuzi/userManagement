@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // Set the target JavaScript version
+    "module": "commonjs", // Set the module code generation
+    "jsx": "react-jsx", // Use "react" for older versions of React
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Modules
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
+    "strict": true, // Enable all strict type-checking options
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "resolveJsonModule": true, // Allow importing JSON files
+    "noEmit": true // Disable emitting files; used for type-checking only
+  },
+  "include": [
+    "src"
+  ], // Include files from the 'src' directory
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ] // Exclude test files and node_modules
+}
