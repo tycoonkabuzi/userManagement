@@ -1,11 +1,26 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  font-size: 1em;
+  min-height: 100vh;
+  background: rgba(255, 66, 27, 1);
+  background: linear-gradient(180deg,
+      rgba(255, 153, 51, 1) 39%,
+      rgba(255, 66, 27, 1) 89%);
+}
+
+h1 {
+  color: #2e418f;
+}
+
+p {
+  color: #243165;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  background-color: white;
 }
 
 th,
@@ -23,4 +38,5 @@ input {
   margin-right: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
